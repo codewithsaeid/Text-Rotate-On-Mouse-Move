@@ -1,65 +1,3 @@
-/* * {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #f1f1f1;
-    text-align: center;
-}
-
-#over {
-    cursor: pointer;
-}
-
-#over h1 {
-    font-family: calibri;
-    font-size: 5.5rem;
-    text-transform: uppercase;
-}
-
-#over h2 {
-    font-family: calibri;
-    font-size: 5rem;
-    text-transform: uppercase;
-    background-color: #f499ff;
-    border-radius: 10px;
-    color: #f1f1f1;
-    animation-name: mixC;
-    animation-direction: 7s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes mixC {
-    0% {
-        background-color: #f499ff;
-    }
-
-    25% {
-        background-color: #f671ff;
-    }
-
-    50% {
-        background-color: #ff64ac;
-    }
-
-    75% {
-        background-color: #ff6f9e;
-    }
-
-    100% {
-        background-color: #f499ff;
-    }
-} */
-
-
-
-
-/* with browser support */
 * {
     margin: 0;
     padding: 0;
@@ -69,8 +7,6 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background-color: #f1f1f1;
     text-align: center;
@@ -88,39 +24,14 @@ body {
 
 #over h2 {
     font-family: calibri;
-    font-size: 5rem;
     text-transform: uppercase;
+    font-size: 5rem;
     background-color: #f499ff;
     border-radius: 10px;
     color: #f1f1f1;
-    -webkit-animation-name: mixC;
     animation-name: mixC;
-    -webkit-animation-direction: 7s;
-    animation-direction: 7s;
-    -webkit-animation-iteration-count: infinite;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes mixC {
-    0% {
-        background-color: #f499ff;
-    }
-
-    25% {
-        background-color: #f671ff;
-    }
-
-    50% {
-        background-color: #ff64ac;
-    }
-
-    75% {
-        background-color: #ff6f9e;
-    }
-
-    100% {
-        background-color: #f499ff;
-    }
 }
 
 @keyframes mixC {
